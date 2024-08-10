@@ -32,7 +32,7 @@ int main()
       mayor_num = i;
     }
   }
-  
-printf("El número inicial que produce la mayor cantidad de términos es %d con un total de %d términos.\n", mayor_num, terminos);
+
+  printf("El número inicial que produce la mayor cantidad de términos es %d con un total de %d términos.\n", mayor_num, terminos);
   return 0;
 }
