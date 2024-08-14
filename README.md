@@ -20,24 +20,22 @@ En este documento explico el proceso que culminó en la solución actual y desar
 Inicialmente decidí hacerlo lo más sencillo y elegí el lenguaje de programación C por su simplicidad y eficiencia y también porque el código se puede ejecutar de manera rápida haciendo uso de cualquier compilador, sin la necesidad de crear un proyecto ni depender de un entorno de desarrollo. Es así que implementé una función que calcula los términos de la secuencia para todos los números desde el 1 hasta el límite superior, que en este caso es 100.000:
 
 ```c
+// Solución inicial en C
+#include <stdio.h>
+
 int terminos_collatz(int num);
 
 int main()
 {
-  // Declara la variable del límite superior, hasta el cual se calculará la cantidad de términos generados
   int limite_superior = 100000;
 
-  // Declara las variables del número que produce la mayor cantidad de términos y la cantidad de términos que produce 
   int mayor_num;
   int terminos = 0;
 
-  // Repite el proceso desde el 1 hasta el límite superior
   for (int i = 1; i <= limite_superior; i++)
   {
-    // llama a la función que calcula la cantidad de términos y los almacena en una variable
     int terminos_aux = terminos_collatz(i);
 
-    // si la cantidad de términos para el número calculado es mayor que la anterior, guarda el número y la cantidad de términos en sus respectivas variables
     if (terminos_aux > terminos)
     {
       terminos = terminos_aux;
@@ -49,18 +47,14 @@ int main()
   return 0;
 }
 
-// función que recibe un número entero y devuelve la cantidad de términos que genera
 int terminos_collatz(int num)
 {
   int terminos = 0;
 
-  // mientras el número no haya llegado a 1, aplicar las reglas definidas para la sucesión 
   while (num != 1)
   {
-    // por cada operación que realiza agrega 1 a la cantidad de términos
     terminos++;
 
-    // Si el número es par, divide entre 2, si es impar multiplica por 3 y suma 1
     if (num % 2 == 0)
     {
       num /= 2;
@@ -73,3 +67,31 @@ int terminos_collatz(int num)
   return terminos;
 }
 ```
+
+Lo primero que se ve es que se declaran dos variables de tipo entero donde se va a almacenar el mayor número de términos y el número que los genera.
+
+Luego recorre cada número desde 1 hasta 100.000. Para cada número, se llama a una función que devuelve la cantidad de términos en la sucesión de Collatz para ese número.
+
+Si la cantidad de términos para el número por el que se está iterando es mayor que la cantidad máxima registrada, se actualizan las variables declaradas incialmente.
+
+El problema con esta solución es que es muy rudimentaria y hace uso de la "fuerza bruta" para llegar a la solución. Iterar sobre todos los números y calcular los términos para cada uno funciona, pero no es eficiente en lo absoluto.
+
+#### Solución final 
+Con este problema en mente decidí investigar para buscar soluciones más eficientes. Me encontré entonces con la posibilidad de usar diccionarios para ir guardando los resultados previos, siendo los números almacenados como claves y su respectiva cantidad de términos como valores, eliminando la necesidad de calcular toda la secuencia de Collatz nuevamente para cada número iterado.
+
+Como los diccionarios no existen en C y no tengo los conocimientos suficientes para implementar algo que funcione de manera similar, decidí usar C#.
+
+En el archivo Program.cs de este repositorio está el código principal con los comentarios que explican la solución, pero esencialmente se trata de lo siguiente:
+
+Primero se declaran las variables correspondientes, igual que en el anterior.
+Luego crea un diccionario para almacenar los números ya calculados con la cantidad de términos que generaron. Esto evita la necesidad de volver a calcular los términos para números ya procesados.
+
+De la misma manera que el anterior itera sobre los números desde el 1 hasta el 100.000, llamando a una función que calcula los términos para cada número.
+
+Esa función verifica antes de calcular la secuencia si el número ya está en el diccionario. Si está, devuelve directamente el número de términos almacendo. De otro modo inicializa una variable para contar los términos y otra que guarda el número original para que al final de la función se agregue al diccionario junto con la cantidad de términos que genera.
+
+Lo siguiente es un bucle que se ejecuta mientras el número sea diferente de 1. Dentro de ese bucle, primero se verifica si el diccionario ya contiene la cantidad de términos para el número, agrega esa cantidad a los términos y sale del bucle. En caso contrario realiza las operaciones correspondientes agregando uno al contador de términos como en la solución inicial.
+
+
+
+
