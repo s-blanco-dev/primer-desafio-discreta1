@@ -86,12 +86,59 @@ En el archivo Program.cs de este repositorio está el código principal con los 
 Primero se declaran las variables correspondientes, igual que en el anterior.
 Luego crea un diccionario para almacenar los números ya calculados con la cantidad de términos que generaron. Esto evita la necesidad de volver a calcular los términos para números ya procesados.
 
+```csharp
+Dictionary<int, int> anteriores = new Dictionary<int, int>();
+```
+
 De la misma manera que el anterior itera sobre los números desde el 1 hasta el 100.000, llamando a una función que calcula los términos para cada número.
 
+```csharp
+for (int i = 1; i <= limiteSuperior; i++)
+{
+   int terminosAux = TerminosCollatz(i);
+
+...
+```
 Esa función verifica antes de calcular la secuencia si el número ya está en el diccionario. Si está, devuelve directamente el número de términos almacendo. De otro modo inicializa una variable para contar los términos y otra que guarda el número original para que al final de la función se agregue al diccionario junto con la cantidad de términos que genera.
 
 Lo siguiente es un bucle que se ejecuta mientras el número sea diferente de 1. Dentro de ese bucle, primero se verifica si el diccionario ya contiene la cantidad de términos para el número, agrega esa cantidad a los términos y sale del bucle. En caso contrario realiza las operaciones correspondientes agregando uno al contador de términos como en la solución inicial.
 
+```csharp
+int TerminosCollatz(int num)
+{
+   if (anteriores.TryGetValue(num, out var collatz))
+   {
+      return collatz;
+   }
 
+   ...
+      
+   while (num != 1)
+   {
+      if (anteriores.TryGetValue(num, out collatz))
+      {
+         terminos += collatz;
+         break;
+      }
+      
+      terminos++;
+      
+      if (num % 2 == 0)
+      {
+         num /= 2;
+      }
+      else
+      {
+         num = num * 3 + 1;
+      }
+   }
 
+   anteriores.Add(numAux, terminos);
+   return terminos;
+}
+```
 
+Cuando termina de iterar sobre el rango de números indicados, imprime por pantalla el siguiente mensaje:
+```
+"El número inicial que produce la mayor cantidad de términos es 77031 con un total de 350 términos."
+```
