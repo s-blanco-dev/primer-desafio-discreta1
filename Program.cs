@@ -26,12 +26,6 @@ Console.WriteLine(
 
 int TerminosCollatz(int num)
 {
-   // si la cantidad de términos para el número ya fue calculada, devuelve la cantidad correspondiente
-   if (anteriores.TryGetValue(num, out var collatz))
-   {
-      return collatz;
-   }
-
    // inicializa las variables
    int terminos = 0;
    int numAux = num; // guarda el número original para agregarlo posteriormente al diccionario
@@ -40,7 +34,7 @@ int TerminosCollatz(int num)
    while (num != 1)
    {
       // si el diccionario ya contiene la cantidad de términos para el número, agrega esa cantidad y sale del bucle
-      if (anteriores.TryGetValue(num, out collatz))
+      if (anteriores.TryGetValue(num, out var collatz))
       {
          terminos += collatz;
          break;
