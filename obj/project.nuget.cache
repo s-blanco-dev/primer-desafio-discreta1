@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "e2J1vPUHq30d4QkEtpGdBas13dbuXjrA6qXqAnu/674RwVFPY/F/CwP256fuc5gxfBMWNDLw/dD2gYg5r9Q07w==",
+  "success": true,
+  "projectFilePath": "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/primer_desafio.csproj",
+  "expectedPackageFiles": [
+    "/home/jwillmore/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.7/microsoft.aspnetcore.app.ref.8.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

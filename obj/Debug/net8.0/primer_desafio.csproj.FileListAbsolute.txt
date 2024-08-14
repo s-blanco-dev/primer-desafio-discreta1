@@ -1,0 +1,14 @@
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/bin/Debug/net8.0/primer_desafio
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/bin/Debug/net8.0/primer_desafio.deps.json
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/bin/Debug/net8.0/primer_desafio.runtimeconfig.json
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/bin/Debug/net8.0/primer_desafio.dll
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/bin/Debug/net8.0/primer_desafio.pdb
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/obj/Debug/net8.0/primer_desafio.GeneratedMSBuildEditorConfig.editorconfig
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/obj/Debug/net8.0/primer_desafio.AssemblyInfoInputs.cache
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/obj/Debug/net8.0/primer_desafio.AssemblyInfo.cs
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/obj/Debug/net8.0/primer_desafio.csproj.CoreCompileInputs.cache
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/obj/Debug/net8.0/primer_desafio.dll
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/obj/Debug/net8.0/refint/primer_desafio.dll
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/obj/Debug/net8.0/primer_desafio.pdb
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/obj/Debug/net8.0/primer_desafio.genruntimeconfig.cache
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/obj/Debug/net8.0/ref/primer_desafio.dll
