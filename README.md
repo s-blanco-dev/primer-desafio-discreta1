@@ -99,20 +99,16 @@ for (int i = 1; i <= limiteSuperior; i++)
 
 ...
 ```
-Esa función verifica antes de calcular la secuencia si el número ya está en el diccionario. Si está, devuelve directamente el número de términos almacendo. De otro modo inicializa una variable para contar los términos y otra que guarda el número original para que al final de la función se agregue al diccionario junto con la cantidad de términos que genera.
+Esa función inicializa una variable para contar los términos y otra que guarda el número original para que al final de la función se agregue al diccionario junto con la cantidad de términos que genera.
 
-Lo siguiente es un bucle que se ejecuta mientras el número sea diferente de 1. Dentro de ese bucle, primero se verifica si el diccionario ya contiene la cantidad de términos para el número, agrega esa cantidad a los términos y sale del bucle. En caso contrario realiza las operaciones correspondientes agregando uno al contador de términos como en la solución inicial.
+En la misma se presenta un bucle que se ejecuta mientras el número sea diferente de 1. Por cada ejecución del bucle se verifica si el diccionario ya contiene la cantidad de términos para el número, en caso afirmativo agrega esa cantidad a los términos y sale del bucle. En caso contrario sigue realizando las operaciones correspondientes agregando uno al contador de términos como en la solución inicial.
 
 ```csharp
 int TerminosCollatz(int num)
 {
-   if (anteriores.TryGetValue(num, out var collatz))
-   {
-      return collatz;
-   }
+    int terminos = 0;
+    int numAux = num; 
 
-   ...
-      
    while (num != 1)
    {
       if (anteriores.TryGetValue(num, out collatz))
@@ -137,6 +133,8 @@ int TerminosCollatz(int num)
    return terminos;
 }
 ```
+
+La función retorna la cantidad de términos que genera el número en cuestión y el programa examina que la cantidad sea mayor o menor a la variable que guarda la mayor cantidad de términos y en caso positivo actualiza la variable al mismo tiempo que iguala la variable "mayorNum" al número correspondiente. 
 
 Cuando termina de iterar sobre el rango de números indicados, imprime por pantalla el siguiente mensaje:
 ```
