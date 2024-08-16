@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/primer_desafio.csproj": {}
+    "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/collatz.csproj": {}
   },
   "projects": {
-    "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/primer_desafio.csproj": {
+    "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/collatz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/primer_desafio.csproj",
-        "projectName": "primer_desafio",
-        "projectPath": "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/primer_desafio.csproj",
+        "projectUniqueName": "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/collatz.csproj",
+        "projectName": "collatz",
+        "projectPath": "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/collatz.csproj",
         "packagesPath": "/home/jwillmore/.nuget/packages/",
-        "outputPath": "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/obj/",
+        "outputPath": "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jwillmore/.nuget/NuGet/NuGet.Config"

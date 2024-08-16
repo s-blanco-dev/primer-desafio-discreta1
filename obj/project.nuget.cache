@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e2J1vPUHq30d4QkEtpGdBas13dbuXjrA6qXqAnu/674RwVFPY/F/CwP256fuc5gxfBMWNDLw/dD2gYg5r9Q07w==",
+  "dgSpecHash": "Eeke76Mt+XTsOM/KGAfl8aXjG6hzBur+MFNKYJgOvxugIrAkiqs277S9ip9zoOLmUGV/ZdaaIhnk5aVW1WO5xg==",
   "success": true,
-  "projectFilePath": "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer_desafio/primer_desafio.csproj",
+  "projectFilePath": "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/collatz.csproj",
   "expectedPackageFiles": [
     "/home/jwillmore/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.7/microsoft.aspnetcore.app.ref.8.0.7.nupkg.sha512"
   ],

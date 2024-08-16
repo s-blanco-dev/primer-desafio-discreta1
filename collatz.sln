@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "collatz", "collatz.csproj", "{6F5FCB25-4069-4C17-B8B5-A8EEAC5991BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F5FCB25-4069-4C17-B8B5-A8EEAC5991BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5FCB25-4069-4C17-B8B5-A8EEAC5991BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5FCB25-4069-4C17-B8B5-A8EEAC5991BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5FCB25-4069-4C17-B8B5-A8EEAC5991BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

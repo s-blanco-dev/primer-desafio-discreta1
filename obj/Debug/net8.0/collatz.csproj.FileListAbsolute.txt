@@ -1,0 +1,14 @@
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/bin/Debug/net8.0/collatz
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/bin/Debug/net8.0/collatz.deps.json
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/bin/Debug/net8.0/collatz.runtimeconfig.json
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/bin/Debug/net8.0/collatz.dll
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/bin/Debug/net8.0/collatz.pdb
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/obj/Debug/net8.0/collatz.GeneratedMSBuildEditorConfig.editorconfig
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/obj/Debug/net8.0/collatz.AssemblyInfoInputs.cache
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/obj/Debug/net8.0/collatz.AssemblyInfo.cs
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/obj/Debug/net8.0/collatz.csproj.CoreCompileInputs.cache
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/obj/Debug/net8.0/collatz.dll
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/obj/Debug/net8.0/refint/collatz.dll
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/obj/Debug/net8.0/collatz.pdb
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/obj/Debug/net8.0/collatz.genruntimeconfig.cache
+/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/obj/Debug/net8.0/ref/collatz.dll
