@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("collatz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d44b21f87ee4540f665a2d145f2dbaba3e2d94d")]
 [assembly: System.Reflection.AssemblyProductAttribute("collatz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("collatz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,6 @@
-﻿int limiteSuperior = 100000;
+﻿Console.Write("Inserte el límite superior: ");
+
+int limiteSuperior = Convert.ToInt32(Console.ReadLine());
 int mayorNum = 0;
 int terminos = 0;
 

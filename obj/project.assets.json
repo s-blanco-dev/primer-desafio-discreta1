@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/collatz.csproj",
+      "projectUniqueName": "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer-desafio-discreta1/collatz.csproj",
       "projectName": "collatz",
-      "projectPath": "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/collatz.csproj",
+      "projectPath": "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer-desafio-discreta1/collatz.csproj",
       "packagesPath": "/home/jwillmore/.nuget/packages/",
-      "outputPath": "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/collatz/obj/",
+      "outputPath": "/home/jwillmore/Nextcloud/univ/2semestre/mat-disc/primer-desafio-discreta1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jwillmore/.nuget/NuGet/NuGet.Config"
